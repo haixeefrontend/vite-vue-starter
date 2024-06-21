@@ -7,14 +7,15 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc; vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint ."
   },
   "dependencies": {
     "vue": "^3.4.29",
     "vue-router": "^4.3.3"
   },
   "devDependencies": {
-    "@haixee/eslint-config": "^1.2.8",
+    "@haixee/eslint-config": "^1.2.10",
     "@haixee/prettier-config": "^1.0.3",
     "@types/eslint": "^8.56.10",
     "@typescript-eslint/eslint-plugin": "^7.13.1",
@@ -33,6 +34,7 @@
     "sass": "^1.77.6",
     "typescript": "^5.4.5",
     "vite": "^5.3.1",
+    "vue-eslint-parser": "*",
     "vue-tsc": "^2.0.21"
   },
   "eslintConfig": {
