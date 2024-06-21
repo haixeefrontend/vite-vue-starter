@@ -22,8 +22,7 @@
     "noFallthroughCasesInSwitch": true,
 
     /* Type checking */
-    "strictNullChecks": false,
-    "types": ["vite/client"]
+    "strictNullChecks": false
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
   "references": [{ "path": "./tsconfig.node.json" }]
