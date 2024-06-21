@@ -1,8 +1,10 @@
 {
   "recommendations": [
-    "vue.volar",
-    "editorconfig.editorconfig",
+    "arcanis.vscode-zipfs",
     "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode"
+    "EditorConfig.EditorConfig",
+    "esbenp.prettier-vscode",
+    "stylelint.vscode-stylelint",
+    "vue.volar"
   ]
 }

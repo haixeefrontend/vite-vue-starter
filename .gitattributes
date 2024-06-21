@@ -1,0 +1,7 @@
+.yarn/cache/**/*                -text binary linguist-vendored
+.yarn/releases/**/*             -text binary linguist-vendored
+.yarn/plugins/**/*              -text binary linguist-vendored
+.yarn/sdks/**/*                 -text binary linguist-vendored
+.yarn/unplugged/**/*            -text binary linguist-vendored
+.yarn/versions/**/*             -text binary linguist-generated
+.pnp.*                          -text binary linguist-generated
