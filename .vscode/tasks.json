@@ -5,17 +5,14 @@
       "label": "Vite dev",
       "type": "shell",
       "command": "yarn",
-      "args": [
-        "run",
-        "dev"
-      ],
+      "args": ["run", "dev"],
       "isBackground": true,
       "problemMatcher": {
         "owner": "typescript",
         "fileLocation": "relative",
         "pattern": {
           // TODO: correct "regexp"
-          "regexp": "^([a-zA-Z]\\:\/?([\\w\\-]\/?)+\\.\\w+):(\\d+):(\\d+): (ERROR|WARNING)\\: (.*)$",
+          "regexp": "^([a-zA-Z]\\:/?([\\w\\-]/?)+\\.\\w+):(\\d+):(\\d+): (ERROR|WARNING)\\: (.*)$",
           "file": 1,
           "line": 3,
           "column": 4,
