@@ -16,7 +16,7 @@
     "vue-router": "^4.3.3"
   },
   "devDependencies": {
-    "@haixee/eslint-config": "^1.2.10",
+    "@haixee/eslint-config": "^1.2.11",
     "@haixee/prettier-config": "^1.0.3",
     "@types/eslint": "^8.56.10",
     "@typescript-eslint/eslint-plugin": "^7.13.1",

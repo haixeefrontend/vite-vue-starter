@@ -569,9 +569,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@haixee/eslint-config@npm:^1.2.10":
-  version: 1.2.10
-  resolution: "@haixee/eslint-config@npm:1.2.10"
+"@haixee/eslint-config@npm:^1.2.11":
+  version: 1.2.11
+  resolution: "@haixee/eslint-config@npm:1.2.11"
   dependencies:
     "@hamster-bot/eslint-config": "npm:^1.0.8"
     "@vue/eslint-config-typescript": "npm:^13.0.0"
@@ -600,7 +600,7 @@ __metadata:
       optional: true
     eslint-plugin-vue:
       optional: true
-  checksum: 10/9551547ba6fe3069cbc6316e675f742d914afe92e25ccb99c6ac41bad527d1b4f46823404c4e392579690fc30a1d5ca02c6ed6b251943cf5a5c3c1045a647ad3
+  checksum: 10/4b6c094a9a8698334522527e1bab9c72c9dba413bd08c9a3ece5cc3109455fb06fe90a1c2698e1208551cda0368c3bead344f882688f2222ad9a83454cd127fd
   languageName: node
   linkType: hard
 
@@ -4705,7 +4705,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "vite-vue-starter@workspace:."
   dependencies:
-    "@haixee/eslint-config": "npm:^1.2.10"
+    "@haixee/eslint-config": "npm:^1.2.11"
     "@haixee/prettier-config": "npm:^1.0.3"
     "@types/eslint": "npm:^8.56.10"
     "@typescript-eslint/eslint-plugin": "npm:^7.13.1"
