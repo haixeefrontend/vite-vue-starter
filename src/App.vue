@@ -1,7 +1,13 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { RouterView } from 'vue-router'
+
+defineOptions({
+  name: 'App',
+})
+</script>
 
 <template>
-  <div></div>
+  <router-view />
 </template>
 
 <style lang="scss" scoped></style>
