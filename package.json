@@ -23,6 +23,7 @@
   "devDependencies": {
     "@haixee/eslint-config": "^1.2.11",
     "@haixee/prettier-config": "^1.0.3",
+    "@haixee/unocss-preset": "^0.0.4",
     "@types/eslint": "^8.56.10",
     "@typescript-eslint/eslint-plugin": "^7.15.0",
     "@typescript-eslint/parser": "^7.15.0",
