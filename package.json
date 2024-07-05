@@ -12,11 +12,11 @@
     "format": "prettier --write \"**/*.{js,ts,cjs,mjs,jsx,tsx,vue,json,md,mdx,yaml,yml,css,scss,less,html,svg}\""
   },
   "dependencies": {
-    "@unocss/reset": "~0.61.0",
+    "@unocss/reset": "~0.61.2",
     "ky": "^1.4.0",
     "lien": "file:./external/lien-0.3.6.tgz",
     "pinia": "^2.1.7",
-    "unocss": "~0.61.0",
+    "unocss": "~0.61.2",
     "vue": "^3.4.31",
     "vue-router": "^4.4.0"
   },
