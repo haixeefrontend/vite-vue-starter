@@ -13,6 +13,8 @@
   },
   "dependencies": {
     "@unocss/reset": "~0.61.2",
+    "@vueuse/core": "^10.11.0",
+    "@vueuse/shared": "^10.11.0",
     "ky": "^1.4.0",
     "lien": "file:./external/lien-0.3.6.tgz",
     "pinia": "^2.1.7",
