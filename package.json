@@ -16,7 +16,7 @@
     "@vueuse/core": "^10.11.0",
     "@vueuse/shared": "^10.11.0",
     "ky": "^1.4.0",
-    "lien": "file:./external/lien-0.3.6.tgz",
+    "lien": "file:./external/lien-0.3.7.tgz",
     "pinia": "^2.1.7",
     "vue": "^3.4.31",
     "vue-router": "^4.4.0"
