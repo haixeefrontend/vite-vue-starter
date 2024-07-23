@@ -31,12 +31,12 @@ const showMenu = ref(false)
 
 <style lang="scss" scoped>
 .nav {
-  --at-apply: <md:(absolute top-10 left-0 w-full bg-white transition-(~duration-4 + 00));
+  --at-apply: '<md:(absolute top-10 left-0 w-full bg-white transition-(~ duration-400))';
   &[data-active='false'] {
-    --at-apply: <md:(translate-y--200% opacity-0);
+    --at-apply: '<md:(translate-y--200% opacity-0)';
   }
   ul {
-    --at-apply: lg:gap-14 flex-center <md:flex-col;
+    --at-apply: 'lg:gap-14 flex-center <md:flex-col';
   }
 }
 </style>
