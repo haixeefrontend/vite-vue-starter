@@ -1,9 +1,9 @@
 import { fileURLToPath, URL } from 'node:url'
 
-import vueJsx from '@vitejs/plugin-vue-jsx'
 import vue from '@vitejs/plugin-vue'
-import ElementPlus from 'unplugin-element-plus/vite'
+import vueJsx from '@vitejs/plugin-vue-jsx'
 import uno from 'unocss/vite'
+import ElementPlus from 'unplugin-element-plus/vite'
 import { defineConfig } from 'vite'
 
 // https://vitejs.dev/config/

@@ -44,6 +44,14 @@
     "vite": "^5.3.5",
     "vue-tsc": "^2.0.29"
   },
+  "dependenciesMeta": {
+    "@unocss/eslint-plugin@0.61.9": {
+      "unplugged": true
+    }
+  },
+  "resolutions": {
+    "@unocss/eslint-plugin": "patch:@unocss/eslint-plugin@npm%3A0.61.9#~/.yarn/patches/@unocss-eslint-plugin-npm-0.61.9-d149ec5038.patch"
+  },
   "prettier": "@haixee/prettier-config",
   "packageManager": "yarn@4.3.1"
 }

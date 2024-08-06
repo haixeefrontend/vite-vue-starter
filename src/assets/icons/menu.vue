@@ -1,3 +1,4 @@
+<!-- eslint-disable @stylistic/max-len vue/multi-word-component-names -->
 <template>
   <svg
     t="1720236346633"

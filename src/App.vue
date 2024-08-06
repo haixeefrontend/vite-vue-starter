@@ -1,7 +1,6 @@
 <script setup lang="ts">
-import { RouterView } from 'vue-router'
-
 import CompLayout from '@/components/layout'
+import { RouterView } from 'vue-router'
 
 defineOptions({
   name: 'App',

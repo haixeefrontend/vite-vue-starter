@@ -9,8 +9,8 @@
 </template>
 
 <script setup lang="ts">
-import CompHeader from './header.vue'
 import CompFooter from './footer.vue'
+import CompHeader from './header.vue'
 
 defineOptions({
   name: 'ComponentLayout',

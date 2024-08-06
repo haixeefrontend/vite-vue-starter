@@ -3,13 +3,13 @@
 </template>
 
 <script setup lang="ts">
-import { useApi } from '@/api'
+// import { useApi } from '@/api'
 
 defineOptions({
   name: 'PageHome',
 })
 
-const api = useApi()
+// const api = useApi()
 </script>
 
 <style lang="scss" scoped></style>

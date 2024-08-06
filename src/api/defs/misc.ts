@@ -1,5 +1,5 @@
-import type { Internal as LienInternal } from 'lien'
 import type { BaseResponse, EmptyObject } from '../utils'
+import type { Internal as LienInternal } from 'lien'
 
 declare module 'lien' {
   export interface Internal<TConfig> {
