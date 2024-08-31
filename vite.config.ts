@@ -17,6 +17,11 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
+        /**
+         * For use `sass-embedded` instead of `sass`
+         * `sass-embedded` is binary version of `sass` which is faster
+         */
+        api: 'modern-compiler',
         additionalData: `@use "@/styles/element/index.scss" as *;`,
       },
     },
