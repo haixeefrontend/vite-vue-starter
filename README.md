@@ -7,16 +7,20 @@
 使用 `npx` 初始化:
 
 ```bash
-npx degit haixeefrontend/vite-vue-starter#master my-vue-app
+npx tiged haixeefrontend/vite-vue-starter#master my-vue-app
 ```
 
 使用 `yarn dlx` (需要 Node.js >= 16.9.0):
 
 ```bash
-corepack yarn@4 dlx degit haixeefrontend/vite-vue-starter#master my-vue-app
+corepack yarn@4 dlx tiged haixeefrontend/vite-vue-starter#master my-vue-app
 ```
 
-Then, install dependencies:
+> [!NOTE]
+> 若出现网络问题无法拉取仓库，可以尝试在后面加上 `--mode=git` 的参数，这样它会调用默认的 git (ssh) 的方式拉取。
+> 还有 `--disable-cache` 参数可以让它永远通过网络拉取最新的模板。
+
+然后安装依赖：
 
 ```bash
 cd my-vue-app
