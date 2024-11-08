@@ -27,7 +27,7 @@
   "devDependencies": {
     "@haixee/eslint-config": "^2.1.7",
     "@haixee/prettier-config": "^1.0.3",
-    "@haixee/unocss-preset": "^0.0.5",
+    "@haixee/unocss-preset": "^0.0.10",
     "@types/eslint": "^9.6.0",
     "@unocss/eslint-config": "~0.61.9",
     "@vitejs/plugin-vue": "^5.1.2",
