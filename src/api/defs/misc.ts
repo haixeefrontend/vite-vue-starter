@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import type { BaseResponse, EmptyObject } from '../utils'
 import type { Internal as LienInternal } from 'lien'
 

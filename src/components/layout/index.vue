@@ -1,3 +1,12 @@
+<script setup lang="ts">
+import CompFooter from './footer.vue'
+import CompHeader from './header.vue'
+
+defineOptions({
+  name: 'ComponentLayout',
+})
+</script>
+
 <template>
   <div class="responsive">
     <comp-header />
@@ -7,14 +16,5 @@
     <comp-footer />
   </div>
 </template>
-
-<script setup lang="ts">
-import CompFooter from './footer.vue'
-import CompHeader from './header.vue'
-
-defineOptions({
-  name: 'ComponentLayout',
-})
-</script>
 
 <style lang="scss" scoped></style>

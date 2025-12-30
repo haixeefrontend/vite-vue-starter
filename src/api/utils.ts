@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Internal as LienInternal } from 'lien/fetch'
 
 import type { AxiosRequestConfigLike, DefineObject } from 'lien'
@@ -12,6 +13,7 @@ export class Internal extends LienInternal {
   }
 }
 
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 export interface BaseData {
   // TODO: Define the common properties of the response data
 }

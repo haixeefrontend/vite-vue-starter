@@ -1,7 +1,3 @@
-<template>
-  <div>Home</div>
-</template>
-
 <script setup lang="ts">
 // import { useApi } from '@/api'
 
@@ -11,5 +7,9 @@ defineOptions({
 
 // const api = useApi()
 </script>
+
+<template>
+  <div>Home</div>
+</template>
 
 <style lang="scss" scoped></style>

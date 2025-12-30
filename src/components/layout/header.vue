@@ -1,6 +1,20 @@
+<script setup lang="ts">
+import { ElDrawer } from 'element-plus'
+import { ref } from 'vue'
+import { RouterLink } from 'vue-router'
+
+import { Menu as IconMenu } from '@/assets/icons'
+import { headers } from '@/routes'
+
+defineOptions({
+  name: 'ComponentLayoutHeader',
+})
+const showMenu = ref(false)
+</script>
+
 <template>
   <header class="sticky left-0 top-0 z-9999 gap-8 bg-white">
-    <div class="flex items-center responsive">
+    <div class="responsive flex items-center">
       <img src="#" class="!transition- transition-(max-width) <md:hidden lg:max-w-60 md:max-w-45" />
       <icon-menu :class="['md:hidden size-8 transition', { 'opacity-0': showMenu }]" @click="showMenu = !showMenu" />
       <nav class="nav flex-1 <md:hidden" :data-active="showMenu">
@@ -25,19 +39,6 @@
     </div>
   </header>
 </template>
-
-<script setup lang="ts">
-import { Menu as IconMenu } from '@/assets/icons'
-import { headers } from '@/routes'
-import { ElDrawer } from 'element-plus'
-import { ref } from 'vue'
-import { RouterLink } from 'vue-router'
-
-defineOptions({
-  name: 'ComponentLayoutHeader',
-})
-const showMenu = ref(false)
-</script>
 
 <style lang="scss" scoped>
 .nav {
